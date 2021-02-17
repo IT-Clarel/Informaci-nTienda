@@ -1074,7 +1074,7 @@ $(document).ready(function() {
   function format (data) {
       return '<div class="details-container" style="color:#6c6c6c">'+
           '<table cellpadding="5" cellspacing="0" border="0" class="details-table">'+
-              '<tr style="margin-top:-12%">'+
+              '<tr style="margin-top:-12%; border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+
                   '<td class="title">Extensión Jefe Ventas:</td>'+
                   '<td>'+data.C+'</td>'+
 				  '<td class="title">Extensión Supervisor:</td>'+
@@ -1083,12 +1083,13 @@ $(document).ready(function() {
 			  '<tr>'+
 				  '<td><h4 style="text-decoration:underline";>🌐 LOCALIZACIÓN 🌐</h4></td>'+
 			  '</tr>'+
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+
 				  '<td class="title">Población:</td>'+
                   '<td>'+data.F+'</td>'+
                   '<td class="title">Dirección:</td>'+
                   '<td>'+data.G+'</td>'+
 			  '</tr>'+
-			  '<tr>'+
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+
 				  '<td class="title">Provincia:</td>'+
                   '<td>'+data.H+'</td>'+
                   '<td class="title">CP:</td>'+
@@ -1099,13 +1100,13 @@ $(document).ready(function() {
               '<tr>'+
 				  '<td><h4 style="text-decoration:underline";>⏰ HORARIO ⏰</h4></td>'+
 			  '</tr>'+
-			  '<tr>'+	  
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+	  
                   '<td class="title">Lunes a Jueves:</td>'+
                   '<td>'+data.J+'</td>'+
                   '<td class="title">Viernes:</td>'+
                   '<td>'+data.K+'</td>'+
 			  '</tr>'+
-			  '<tr>'+
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+
                   '<td class="title">Sábado:</td>'+
                   '<td>'+data.L+'</td>'+
                   '<td class="title">Domingo:</td>'+
@@ -1118,13 +1119,13 @@ $(document).ready(function() {
 			  '<tr>'+
 				  '<td><h4 style="text-decoration:underline";> 📱  TELEFONÍA  📱 </h4></td>'+
 			  '</tr>'+
-			  '<tr>'+	  
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+	  
                   '<td class="title">Extensión Tienda:</td>'+
                   '<td>'+data.N+'</td>'+
                   '<td class="title">Pin Móvil Fijo:</td>'+
                   '<td>'+data.O+'</td>'+
 			  '</tr>'+
-			  '<tr>'+
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+
                   '<td class="title">PIN móvil:</td>'+
                   '<td>'+data.P+'</td>'+
                   '<td class="title">PUK móvil:</td>'+
@@ -1135,13 +1136,13 @@ $(document).ready(function() {
 			  '<tr>'+
 				  '<td><h4 style="text-decoration:underline";>👩🏻‍🔧 USUARIOS 👩🏻‍🔧</h4></td>'+
 			  '</tr>'+
-			  '<tr>'+	  
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+	  
                   '<td class="title">Email:</td>'+
                   '<td>'+data.R+'</td>'+
                   '<td class="title">Contraseña Email:</td>'+
                   '<td>'+data.S+'</td>'+
 			  '</tr>'+
-			  '<tr>'+
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+
                   '<td class="title">Usuario MicroStrategy:</td>'+
                   '<td>'+data.T+'</td>'+
                   '<td class="title">Contraseña MicroStrategy:</td>'+
@@ -1152,19 +1153,19 @@ $(document).ready(function() {
 			  '<tr>'+
 				  '<td><h4 style="text-decoration:underline";>🔧 ÁREA TÉCNICA 🔧</h4></td>'+
 			  '</tr>'+
-			  '<tr>'+	  
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+	  
                   '<td class="title">MNT General:</td>'+
                   '<td class="margin-right:50px">'+data.V+'</td>'+
                   '<td class="title">TLF Urgencias:</td>'+
                   '<td>'+data.W+'</td>'+
 			  '</tr>'+
-			  '<tr>'+
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+
                   '<td class="title">Cerrajería (MNT):</td>'+
                   '<td>'+data.X+'</td>'+
                   '<td class="title">TLF Urgencias:</td>'+
                   '<td>'+data.Y+'</td>'+
 			  '</tr>'+
-			  '<tr>'+
+			  '<tr style="border-style: dashed double; border-color: #7d7d7d30;border-width: 1px;background-color: #f5f5f5;">'+
 				  '<td class="title">Electricidad (MNT):</td>'+
                   '<td>'+data.Z+'</td>'+
                   '<td class="title">TLF Urgencias:</td>'+
